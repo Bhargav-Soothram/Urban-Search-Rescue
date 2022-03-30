@@ -6,20 +6,13 @@ Here, in this project, we are simulating a simplified version of the mission. Th
 
 Instructions to run the package:
 
-Clone the repository into your catkin build workspace:
-git clone https://github.com/Madhunc5229/Urban_Search_and_Rescue
-
-Install turtlebot3 package:
-sudo apt install ros-melodic-turtlebot3-*
-
-Add ArUco markers to the Gazebo model:
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/username/catkin_ws/src/package_name/models
-
-Build the package using catkin build 
-Source the bash
-Type the following commands to launch the project:
-
-roslaunch package_name multiple_robots.launch
-rosrun package_name final_project_node
+- Clone the repository into your catkin build workspace: > git clone https://github.com/Bhargav-Soothram/Urban-Search-Rescue
+- Install turtlebot3 package according to the ROS version installed: > sudo apt install ros-noetic-turtlebot3-*
+- Add ArUco markers to the Gazebo model: > export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/username/catkin_ws/src/package_name/models
+- Build the package using catkin build 
+- Source the bash
+- Use the following commands to execute the package:
+> roslaunch package_name multiple_robots.launch
+> rosrun package_name final_project_node
 
 If you clone this repository, package name is 'Urban_Search_and_Rescue'
