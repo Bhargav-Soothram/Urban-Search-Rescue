@@ -17,5 +17,3 @@ Instructions to run the package:
 - Use the following commands to execute the package:
 - > roslaunch package_name multiple_robots.launch
 - > rosrun package_name final_project_node
-
-If you clone this repository, package name is 'Urban_Search_and_Rescue'
